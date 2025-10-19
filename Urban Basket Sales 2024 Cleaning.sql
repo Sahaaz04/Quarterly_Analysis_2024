@@ -27,7 +27,7 @@ COPY transactions (
     "Transaction Date",
     "Discount Applied"
 )
-FROM 'C:\Program Files\Analysis\retail_store_sales.csv'
+FROM 'C:\Program Files\Analysis\Urban Basket Sales 2024.csv'
 DELIMITER ','
 CSV HEADER;
 
@@ -167,4 +167,5 @@ FROM transactions;
 -- - Replaced nulls in Total Spent with median
 -- - Left Discount Applied nulls as it is
 -- - Verified duplicates and near-duplicates
+
 -- - Cross Validated Date-Time

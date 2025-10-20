@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 
-df = pd.read_csv(r"C:\Program Files\Analysis\retail_store_sales_2024_cleaned.csv")
+df = pd.read_csv(r"C:\Program Files\Analysis\Urban Basket Sales 2024 (Clean).csv")
 
 start_date = "2024-01 -01"
 end_date = "2024-3-31"
@@ -69,6 +69,7 @@ print("Sales by Payment Method:", sales_by_payment)
 print("Sales by Location:", sales_by_location)
 print("weekly sales:", weekly_sales)
 print("weekday sales:", round(weekday_sales, 2))
+
 
 
 
